@@ -1,0 +1,7 @@
+[build]
+  publish = "build"
+  functions = "netlify/functions"
+
+[build.environment]
+  CI = "false"
+  REACT_APP_NETLIFY = "true"
